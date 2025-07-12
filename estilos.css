@@ -1,0 +1,31 @@
+/* 1. Color de fondo del cuerpo */
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif; /* 3. Fuente personalizada */
+    font-size: 16px;                  /* 3. Tamaño del texto */
+    margin: 40px;                     /* 4. Márgenes generales */
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lightgray;
+    font-size: 14px;
+  }
+}
+
+/* 2. Color de los títulos */
+h1, h2 {
+    color: #003366;
+}
+
+/* 2. Color del párrafo de presentación */
+p {
+    color: #333333;
+}
+
+/* Opcional: mejora visual de las listas */
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
